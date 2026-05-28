@@ -1,107 +1,251 @@
-<!doctype html>
-<!-- laundry · service-red · hero-layout 2 · svc-layout 0 · generated from live Google Places data for Yes Cleaners -->
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Yes Cleaners — Laundry, Irvine</title>
-<meta name="description" content="Yes Cleaners — Laundry in Irvine.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<!-- cleaners · sneakerhead-irvine · hero-layout 9 · svc-layout 9 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yes Cleaners — Irvine · Najam & Julia</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f7f4ee;--surface:#fff;--ink:#1a1410;--mut:#6c6358;--acc:#b8341f;--line:#e0d8cc}
+:root{
+  --orange:#ee5a24;
+  --orange-dk:#c43d0e;
+  --black:#15110d;
+  --gray:#2a2520;
+  --bg:#fff8f0;
+  --cream:#fef1de;
+  --ink:#1a1410;
+  --mute:#8a807a;
+  --line:#e8dcc8;
+}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'IBM Plex Sans',Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.62;-webkit-font-smoothing:antialiased}
-.disp{font-family:'Saira',sans-serif}
-a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-img{max-width:100%;display:block}
-.wrap{max-width:1120px;margin:0 auto;padding:0 26px}
-header{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:30}
-header .row{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{font-family:'Saira',sans-serif;font-weight:700;font-size:21px;letter-spacing:-.01em;color:var(--ink)}
-nav a{margin-left:20px;color:var(--mut);font-size:13.5px;font-weight:500}nav a:hover{color:var(--acc);text-decoration:none}
-.callbtn{display:inline-flex;align-items:center;gap:7px;background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;font-size:13.5px;margin-left:20px}
-.callbtn:hover{filter:brightness(.92);text-decoration:none;color:#fff}
-.hero{padding:72px 0 60px}
-.hero .grid{display:grid;grid-template-columns:1fr;gap:46px;align-items:center}
-.kicker{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:18px}
-h1{font-family:'Saira',sans-serif;font-weight:800;font-size:clamp(40px,6.2vw,72px);line-height:1.02;letter-spacing:-.025em;margin-bottom:20px}
-.lede{font-size:18px;color:var(--mut);max-width:480px;margin-bottom:28px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:8px;font-weight:600;font-size:14px;border:1.5px solid var(--ink);color:var(--ink);background:transparent}
-.btn:hover{background:var(--ink);color:var(--bg);text-decoration:none}
-.btn.solid{background:var(--acc);border-color:var(--acc);color:#fff}
-.btn.solid:hover{filter:brightness(.92);color:#fff}
-.hero-img{width:100%;aspect-ratio:16/8;object-fit:cover;border-radius:16px;;margin-top:36px}
-.section{padding:62px 0;border-top:1px solid var(--line)}
-.kick{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:8px}
-h2{font-family:'Saira',sans-serif;font-weight:700;font-size:34px;letter-spacing:-.02em;margin-bottom:8px}
+html,body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased}
+.sg{font-family:'Space Grotesk',sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
 
-.svcs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
-.svcs .svc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
-.svc-rows{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
-.svc-rows .svc-row{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px 26px;display:flex;align-items:baseline;gap:14px}
-.svc-list{margin-top:30px;border-top:1px solid var(--line)}
-.svc-list .svc-line{display:flex;align-items:baseline;gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
-.snum{font-family:'Saira',sans-serif;font-size:13px;color:var(--acc);font-weight:600;letter-spacing:.08em}
-.svcs .svc h3,.svc-rows .svc-row h3,.svc-list .svc-line h3{font-family:'Saira',sans-serif;font-weight:600;font-size:19px;margin-top:10px;letter-spacing:-.01em}
+nav{padding:18px 0;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .row{display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:28px;letter-spacing:-1.5px;color:var(--black)}
+.brand .o{color:var(--orange)}
+.nlinks{display:flex;gap:32px;font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:14px;letter-spacing:-.2px}
+.nlinks a{color:var(--ink);text-decoration:none;opacity:.7}
+.nlinks a:hover{opacity:1;color:var(--orange)}
+.cta{background:var(--black);color:var(--bg);padding:11px 22px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;border-radius:999px;letter-spacing:.2px}
 
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
-.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
-.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
-.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px}
-.q p{font-family:'Saira',sans-serif;font-size:18px;line-height:1.5;margin-bottom:12px}
-.q .who{font-size:13px;font-weight:600;color:var(--acc)}
-.visit{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:28px}
-.visit .info{padding:30px 32px;background:var(--surface)}
-.hrow{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px}
-.hrow:last-child{border-bottom:0}.hd{font-weight:600}.ht{color:var(--mut)}
-.visit iframe{width:100%;height:100%;min-height:360px;border:0}
-.contact-line{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-footer{background:var(--ink);color:var(--bg);padding:32px 0 46px;border-top:1px solid var(--line)}
-footer .fbrand{font-family:'Saira',sans-serif;font-weight:700;font-size:18px}
-footer .credit{margin-top:10px;font-size:13px;opacity:.82}footer a{color:var(--acc)}
-@media(max-width:800px){.hero .grid{grid-template-columns:1fr}.hero-img{order:0;aspect-ratio:16/10}.svcs{grid-template-columns:1fr 1fr}.svc-rows{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.quotes,.visit{grid-template-columns:1fr}nav{display:none}.visit iframe{min-height:280px}}
+/* hero */
+.hero{padding:90px 0 100px;background:var(--bg);position:relative;overflow:hidden}
+.hero::before{content:"YES";position:absolute;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:600px;color:rgba(238,90,36,.06);top:-100px;right:-50px;line-height:.8;letter-spacing:-30px;pointer-events:none}
+.hero .row{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:end;position:relative}
+.tag{display:inline-block;padding:6px 14px;background:var(--black);color:var(--orange);font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-radius:999px;margin-bottom:24px}
+.hero h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(60px,10vw,140px);line-height:.88;letter-spacing:-4px;color:var(--black)}
+.hero h1 em{font-style:italic;color:var(--orange);font-weight:400}
+.hero .lede{margin-top:30px;font-size:19px;color:#3a3026;max-width:520px;line-height:1.65}
+.hero .actions{margin-top:36px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.btn{padding:14px 26px;border-radius:999px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600}
+.btn.primary{background:var(--orange);color:var(--bg)}
+.btn.ghost{background:transparent;color:var(--black);border:2px solid var(--black)}
+.case{background:var(--black);color:var(--bg);padding:40px 36px;border-radius:24px;position:relative}
+.case .tag2{display:inline-block;padding:4px 12px;background:var(--orange);color:var(--bg);border-radius:999px;font-family:'Space Grotesk',sans-serif;font-size:11px;letter-spacing:2px;font-weight:700;text-transform:uppercase}
+.case h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:36px;line-height:1;letter-spacing:-1.5px;margin-top:14px}
+.case h3 em{font-style:italic;color:var(--orange)}
+.case ul{margin-top:24px;list-style:none}
+.case li{padding:10px 0;border-bottom:1px dashed #3a3026;font-family:'Space Grotesk',sans-serif;font-size:14px;display:flex;justify-content:space-between}
+.case li:last-child{border-bottom:none}
+.case li b{color:var(--orange)}
+.case .stars{margin-top:24px;color:var(--orange);letter-spacing:3px;font-size:16px}
+.case .q{margin-top:14px;font-family:'Inter',serif;font-style:italic;font-size:14px;color:#d8cdc4;line-height:1.55}
+
+/* marquee */
+.marq{padding:24px 0;background:var(--orange);color:var(--bg);overflow:hidden;white-space:nowrap;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:24px;letter-spacing:-.5px}
+.marq span{margin:0 24px}
+.marq .d{color:var(--black)}
+
+/* services */
+.svc{padding:120px 0;background:var(--bg)}
+.svc .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:60px;flex-wrap:wrap;gap:24px}
+.svc .pre{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:700}
+.svc h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:80px;letter-spacing:-3px;color:var(--black);margin-top:10px;line-height:.95}
+.svc h2 em{font-style:italic;color:var(--orange);font-weight:400}
+.svcgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.scard{background:var(--cream);padding:36px 32px;border-radius:24px;display:flex;gap:24px;align-items:start}
+.scard .ico{width:64px;height:64px;border-radius:50%;background:var(--orange);color:var(--bg);font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center;flex-shrink:0;letter-spacing:-1px}
+.scard:nth-child(2) .ico{background:var(--black)}
+.scard:nth-child(4) .ico{background:var(--black)}
+.scard h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:24px;letter-spacing:-.5px;color:var(--black)}
+.scard p{margin-top:8px;font-size:15px;color:#4a4035;line-height:1.65}
+.scard .row{margin-top:14px;display:flex;gap:14px;align-items:center}
+.scard .price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:var(--orange);letter-spacing:-.5px}
+.scard .turn{font-family:'Space Grotesk',sans-serif;font-size:11px;color:var(--mute);letter-spacing:2px;text-transform:uppercase;font-weight:600;padding:4px 10px;background:var(--bg);border-radius:999px}
+
+/* couple */
+.couple{padding:120px 0;background:var(--black);color:var(--bg)}
+.couple .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:80px;align-items:center}
+.couple .pre{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:700}
+.couple h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:72px;letter-spacing:-3px;line-height:.95;color:var(--bg);margin-top:10px}
+.couple h2 em{font-style:italic;color:var(--orange);font-weight:400}
+.couple p{margin-top:18px;font-size:17px;color:#bdb1a4;line-height:1.7;font-weight:300}
+.couple p + p{margin-top:14px}
+.couple .photo{aspect-ratio:1/1;background:var(--orange);border-radius:24px;display:grid;grid-template-columns:1fr 1fr;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:140px;color:var(--bg);letter-spacing:-6px;line-height:.85;align-items:center;justify-items:center;text-align:center}
+
+/* praise */
+.praise{padding:120px 0;background:var(--cream)}
+.praise .head{text-align:center;margin-bottom:60px}
+.praise .pre{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:700}
+.praise h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:72px;letter-spacing:-3px;color:var(--black);margin-top:10px;line-height:.95}
+.praise h2 em{font-style:italic;color:var(--orange);font-weight:400}
+.pcard{max-width:880px;margin:0 auto;background:var(--bg);padding:50px 50px;border-radius:30px;border:2px solid var(--orange);position:relative}
+.pcard::before{content:"✶";position:absolute;top:-22px;left:42px;background:var(--orange);color:var(--bg);width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700}
+.pcard .star{color:var(--orange);letter-spacing:4px;font-size:18px}
+.pcard .t{font-family:'Space Grotesk',sans-serif;font-style:italic;font-size:24px;color:var(--ink);margin-top:18px;line-height:1.45;letter-spacing:-.5px}
+.pcard .who{margin-top:24px;padding-top:20px;border-top:1px solid var(--line);font-family:'Space Grotesk',sans-serif;font-size:14px;color:var(--mute);letter-spacing:.2px;font-weight:500}
+.pcard .who b{color:var(--black)}
+
+/* visit */
+.visit{padding:120px 0;background:var(--bg)}
+.visit .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:center}
+.visit .pre{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:700}
+.visit h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:72px;letter-spacing:-3px;color:var(--black);margin-top:10px;line-height:.95}
+.visit h2 em{font-style:italic;color:var(--orange);font-weight:400}
+.visit .lede{margin-top:18px;font-size:17px;color:#4a4035;max-width:440px}
+.visit .info{margin-top:36px;display:grid;gap:14px}
+.visit .row{padding:20px 24px;background:var(--cream);border-radius:18px;display:grid;grid-template-columns:130px 1fr;gap:18px;align-items:center}
+.visit .row b{font-family:'Space Grotesk',sans-serif;font-size:11px;letter-spacing:2px;color:var(--orange);text-transform:uppercase;font-weight:700}
+.visit .row a{color:var(--black);text-decoration:none;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.3px}
+.visit .row span{font-family:'Space Grotesk',sans-serif;font-weight:500;color:var(--black)}
+.hourcard{background:var(--black);color:var(--bg);padding:50px 40px;border-radius:24px}
+.hourcard h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:42px;letter-spacing:-1.5px;color:var(--orange);margin-bottom:24px}
+.hr{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #2a241e;font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:500}
+.hr:last-child{border-bottom:none}
+.hr b{font-weight:700;color:var(--bg)}
+.hr span{color:var(--orange);font-weight:500}
+
+footer{padding:60px 0 40px;text-align:center;background:var(--black);color:var(--bg)}
+footer .b{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:120px;letter-spacing:-6px;color:var(--bg);line-height:.85}
+footer .b em{font-style:italic;color:var(--orange);font-weight:400}
+footer .tag{font-family:'Space Grotesk',sans-serif;font-size:11px;letter-spacing:4px;color:var(--orange);text-transform:uppercase;margin-top:16px;font-weight:700}
+footer .det{margin-top:18px;font-size:14px;color:#bdb1a4}
+footer .det a{color:var(--orange);text-decoration:none}
+footer .credit{margin-top:36px;padding-top:24px;border-top:1px solid #2a241e;font-size:12px;color:var(--mute)}
+footer .credit a{color:var(--orange)}
+
+@media (max-width:880px){
+  .hero .row,.couple .grid,.visit .grid{grid-template-columns:1fr;gap:40px}
+  .svcgrid{grid-template-columns:1fr}
+  .nlinks{display:none}
+  .hero h1{font-size:60px}
+  .svc h2,.couple h2,.praise h2,.visit h2{font-size:48px}
+  footer .b{font-size:64px}
+}
 </style></head><body>
-<header><div class="wrap row">
-  <div class="brand">Yes Cleaners</div>
-  <div style="display:flex;align-items:center"><nav><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></nav><a class="callbtn" href="tel:+19495515776">Call (949) 551-5776</a></div>
-</div></header>
 
-<section class="hero"><div class="wrap"><div class="grid">
+<nav><div class="wrap row">
+  <div class="brand">YES<span class="o">.</span>cleaners</div>
+  <div class="nlinks"><a href="#svc">Services</a><a href="#couple">Najam &amp; Julia</a><a href="#visit">Visit</a></div>
+  <a class="cta" href="tel:+19495515776">(949) 551-5776</a>
+</div></nav>
+
+<header class="hero"><div class="wrap"><div class="row">
   <div>
-    <span class="kicker">Crisp, clean, on time</span>
-    <h1 class="disp">Your clothes,<br>handled with care.</h1>
-    <p class="lede">A neighborhood laundry that's earned its regulars the honest way — by being good at what it does. Here's everything you need to find us, reach us, and stop by.</p>
-    <div class="cta"><a class="btn solid" href="tel:+19495515776">Call (949) 551-5776</a><a class="btn" href="#visit">Hours &amp; location</a></div>
+    <div class="tag">// IRVINE · CULVER DR</div>
+    <h1>Hems, hoodies,<br>and the kind<br>of <em>leather work</em><br>nobody else does.</h1>
+    <p class="lede">A small Irvine cleaners that does the standard stuff well — and the unusual stuff better. Hems and inseams, dress shirts, and yes — Margiela Tabis brought back from molded-and-unwearable.</p>
+    <div class="actions">
+      <a class="btn primary" href="tel:+19495515776">Call to Drop Off</a>
+      <a class="btn ghost" href="#svc">See What We Do</a>
+    </div>
   </div>
-  <img class="hero-img" src="https://lh3.googleusercontent.com/place-photos/AJRVUZMQqENUYqRoIa6zsRHxwvn_GuzLxMGZX2hoUbSUqsWo6BIRCvQCLaOBTslHV6s_3CuOcaaVrn54pwbTIGqE-60THG-VI7Y2oPowW5-N2JEjXLR4iRhHtHkzmCRW6VixoXdceCXKRS3mRhZuMw=s4800-w1600" alt="Yes Cleaners">
+  <div class="case">
+    <div class="tag2">CASE STUDY</div>
+    <h3>Molded <em>Tabis</em>,<br>worn again.</h3>
+    <ul>
+      <li>Item<b>Margiela Tabis</b></li>
+      <li>Condition<b>Molded · unwearable</b></li>
+      <li>Treatment<b>Full leather clean</b></li>
+      <li>Outcome<b>Worn again ✓</b></li>
+      <li>Turnaround<b>7 days</b></li>
+    </ul>
+    <div class="stars">★ ★ ★ ★ ★</div>
+    <div class="q">"Had to leave a glowing review after my most recent leather shoe cleaning job — molded, unwearable Tabis, completely brought back."</div>
+  </div>
+</div></div></header>
+
+<div class="marq">
+  <span>Leather Specialty</span><span class="d">/</span>
+  <span>Sneaker Restoration</span><span class="d">/</span>
+  <span>Hems &amp; Inseams</span><span class="d">/</span>
+  <span>Irvine · Open 7 Days</span>
+</div>
+
+<section class="svc" id="svc"><div class="wrap">
+  <div class="head">
+    <div>
+      <div class="pre">// Services</div>
+      <h2>What we<br><em>handle</em>.</h2>
+    </div>
+    <div class="sg" style="font-size:13px;color:var(--mute);letter-spacing:2px;font-weight:600">6 SERVICES · ALL IN-HOUSE</div>
+  </div>
+  <div class="svcgrid">
+    <div class="scard"><div class="ico">D</div><div><h3>Dry Cleaning</h3><p>Shirts, slacks, suits, blouses — pressed and returned. Standard or rush.</p><div class="row"><div class="price">$4.50+</div><div class="turn">Next-Day</div></div></div></div>
+    <div class="scard"><div class="ico">L</div><div><h3>Leather Cleaning</h3><p>Specialty leather work — bags, jackets, and the kind of footwear other places refuse.</p><div class="row"><div class="price">from $60</div><div class="turn">5–7 Days</div></div></div></div>
+    <div class="scard"><div class="ico">H</div><div><h3>Pant Hem</h3><p>Regular hem or original-jeans hem — there's a fitting room on site.</p><div class="row"><div class="price">$14 / $16</div><div class="turn">Same Week</div></div></div></div>
+    <div class="scard"><div class="ico">S</div><div><h3>Sneaker Restoration</h3><p>Yellowed midsoles, suede revival, cleaning the unmentionables.</p><div class="row"><div class="price">from $35</div><div class="turn">3–5 Days</div></div></div></div>
+    <div class="scard"><div class="ico">A</div><div><h3>Alterations</h3><p>Waist, sleeves, jacket tapering. Najam will tell you straight if it's worth it.</p><div class="row"><div class="price">from $22</div><div class="turn">Same Week</div></div></div></div>
+    <div class="scard"><div class="ico">F</div><div><h3>Laundered Shirts</h3><p>Wash, press, fold or hung. Heavy starch on request.</p><div class="row"><div class="price">from $3</div><div class="turn">Next-Day</div></div></div></div>
+  </div>
+</div></section>
+
+<section class="couple" id="couple"><div class="wrap"><div class="grid">
+  <div>
+    <div class="pre">// The Owners</div>
+    <h2>Najam &amp; <em>Julia</em>.</h2>
+    <p>Regulars come for the cleaning. They stay for Najam and Julia. Najam is the in-house tailor — courteous, honest about whether a job is worth doing, and good for actual advice (like how long your hem should be).</p>
+    <p>Julia runs the front. Drop-offs are quick. Pick-ups are easier. Yes Cleaners is the kind of small, owner-run shop you keep returning to without ever quite knowing why — until you try anywhere else.</p>
+    <p>There's a fitting room on site. There's parking. There are seven days of hours.</p>
+  </div>
+  <div class="photo">N · J</div>
 </div></div></section>
 
-<section class="section" id="services"><div class="wrap">
-  <div class="kick">Crisp, clean, on time</div>
-  <h2>What we do.</h2>
-  <div class="svcs"><div class="svc"><span class="snum">01</span><h3>Dry cleaning</h3></div><div class="svc"><span class="snum">02</span><h3>Wash &amp; fold</h3></div><div class="svc"><span class="snum">03</span><h3>Alterations &amp; repairs</h3></div><div class="svc"><span class="snum">04</span><h3>Specialty garments</h3></div></div>
-</div></section>
-
-<section class="section gal-sec"><div class="wrap"><div class="kick">A look inside</div><h2>The place itself.</h2><div class="gallery"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZOquLkuR2XJHN5VtFALGVY1Nx1dj6QJfADBbFejAIaK_8WEGg8ncXbCXAO_e_t9UKxX6kY8wtdtY4QqnYpxBc8KmIbR7vhYuW_IUd5qL-EATm1r5wRAcLk5hBFeayc8NnOC3k-K2aT13CvziA4=s4800-w1600" alt="Yes Cleaners" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZOq4k5h3lXndqEAJJgjcT3yUSJ-smO3TU1fGkuJY4QYDDfuJlY_mwqjEBtoGjcadYlI3Mn-tRzGBfAclmFpZ9_-YHBP-aKLOcxoeZEWT0g3AjAZKOD8Hp6W_XxpXNooqgNYmOqsWhWtvqQZfg=s4800-w1600" alt="Yes Cleaners" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZPqSYLsuPh-aM-OG1Sbr1sKtHF-pE_sOx6kRHekeY4kRiuJFLfe9vT7W4qjrrsoVF0SYwsB0T_2UJgkXOKaKIZOray5ro6CVL665xNl9pNnznnn0_wghfkTKHSzzBBrj82U5WpcVL7Mob8Lmw=s4800-w1600" alt="Yes Cleaners" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZNE8apsPnxWp-jGlR-WLjQUAzq0po8F3sJGecvrtl8MQJMDqrQkqI3rAGKYMg58v_ucoslqSY71Bzb7vzWAaVFBqao3UK5-CjZxhYrbHtBZewGu2-IWBL3h-w2Blt5S2OiW3ImspDg6kr7cwpI=s4800-w1600" alt="Yes Cleaners" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZMCbhJsZ18BJfAFzURtETDDkTt9e7-JiwxbTtSaYvsa4c7qc1fwk1lI0OprtuHDRhdJ_Zl7H2-to_C1gHr3c_HtHTctOroTmGlFyllIpvH98bcu2kEcHzrEScalaOnMx-6dCoFGJ3dwTAH5SRw=s4800-w1600" alt="Yes Cleaners" loading="lazy"></div></div></section>
-<section class="section"><div class="wrap"><div class="kick">In their words</div><h2>What people say.</h2><div class="quotes"><div class="q"><p>I’ve been coming to Nejam and Julia’s place for more than a year now, had to leave a glowing review after my most recent leather shoe cleaning job. These Margiela Tabis were completely molded, unwearable, and I almost threw…</p><div class="who">— Alton R.</div></div><div class="q"><p>Najam is super friendly. Very courteous and gave me some good advice on how long my hem should be. It costs $14 for a regular hem and $16 for an original jeans hem. They had a fitting room - so convenient! My sweater was $8.50…</p><div class="who">— Marnie L.</div></div></div></div></section>
-
-<section class="section" id="visit"><div class="wrap">
-  <div class="kick">Find us</div>
-  <h2>Visit Yes.</h2>
-  <div class="visit">
-    <div class="info">
-      <div class="contact-line"><a class="btn solid" href="tel:+19495515776">Call (949) 551-5776</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=14419+Culver+Dr,+Irvine,+CA+92604,+USA" target="_blank" rel="noopener">Get directions</a></div>
-      <div class="hrow"><span class="hd">Address</span><span class="ht">14419 Culver Dr, Irvine, CA 92604, USA</span></div>
-      <div class="hrow"><span class="hd">Phone</span><span class="ht"><a href="tel:+19495515776">(949) 551-5776</a></span></div>
-      <div class="hrow"><span class="hd">Monday</span><span class="ht">7:00 AM – 6:30 PM</span></div><div class="hrow"><span class="hd">Tuesday</span><span class="ht">7:00 AM – 6:30 PM</span></div><div class="hrow"><span class="hd">Wednesday</span><span class="ht">7:00 AM – 6:30 PM</span></div><div class="hrow"><span class="hd">Thursday</span><span class="ht">7:00 AM – 6:30 PM</span></div><div class="hrow"><span class="hd">Friday</span><span class="ht">7:00 AM – 6:30 PM</span></div><div class="hrow"><span class="hd">Saturday</span><span class="ht">9:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Sunday</span><span class="ht">9:00 AM – 3:00 PM</span></div>
-    </div>
-    <iframe loading="lazy" src="https://www.google.com/maps?q=14419+Culver+Dr,+Irvine,+CA+92604,+USA&output=embed" title="Map to Yes Cleaners"></iframe>
+<section class="praise"><div class="wrap">
+  <div class="head">
+    <div class="pre">// What Regulars Say</div>
+    <h2>One <em>review</em>,<br>worth the click.</h2>
+  </div>
+  <div class="pcard">
+    <div class="star">★ ★ ★ ★ ★</div>
+    <div class="t">"I've been coming to Najam and Julia's place for more than a year now. Had to leave a glowing review after my most recent leather shoe cleaning job — these Margiela Tabis were completely molded, unwearable, and they brought them back."</div>
+    <div class="who"><b>Alton R.</b> · Google Review</div>
   </div>
 </div></section>
 
-<footer><div class="wrap">
-  <div class="fbrand">Yes Cleaners</div>
-  <div style="font-size:13px;opacity:.7;margin-top:4px">14419 Culver Dr, Irvine, CA 92604, USA</div>
+<section class="visit" id="visit"><div class="wrap"><div class="grid">
+  <div>
+    <div class="pre">// Visit</div>
+    <h2>On Culver <em>Drive</em>.</h2>
+    <p class="lede">Open seven days. Fitting room on site. Najam handles intake for anything specialty — leather, sneakers, or alterations.</p>
+    <div class="info">
+      <div class="row"><b>ADDRESS</b><span>14419 Culver Dr, Irvine, CA 92604</span></div>
+      <div class="row"><b>PHONE</b><a href="tel:+19495515776">(949) 551-5776</a></div>
+      <div class="row"><b>SPECIALTY</b><span>Leather · sneaker · alterations · dry cleaning</span></div>
+      <div class="row"><b>OPEN</b><span>Seven days a week</span></div>
+    </div>
+  </div>
+  <div class="hourcard">
+    <h3>Hours</h3>
+    <div class="hr"><b>Mon</b><span>7 AM – 6:30 PM</span></div>
+    <div class="hr"><b>Tue</b><span>7 AM – 6:30 PM</span></div>
+    <div class="hr"><b>Wed</b><span>7 AM – 6:30 PM</span></div>
+    <div class="hr"><b>Thu</b><span>7 AM – 6:30 PM</span></div>
+    <div class="hr"><b>Fri</b><span>7 AM – 6:30 PM</span></div>
+    <div class="hr"><b>Sat</b><span>9 AM – 5 PM</span></div>
+    <div class="hr"><b>Sun</b><span>9 AM – 3 PM</span></div>
+  </div>
+</div></div></section>
+
+<footer>
+  <div class="b">YES<em>.</em></div>
+  <div class="tag">— IRVINE · CULVER DR —</div>
+  <div class="det">14419 Culver Dr · Irvine · <a href="tel:+19495515776">(949) 551-5776</a></div>
   <div class="credit">Mockup designed by LJ Sites — interested in making this yours? <a href="mailto:LJsites.llc@gmail.com">LJsites.llc@gmail.com</a></div>
-</div></footer>
+</footer>
+
 </body></html>
